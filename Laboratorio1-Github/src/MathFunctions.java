@@ -16,4 +16,7 @@ public class MathFunctions {
     public static int subNumber(int a, int b) {
         return a - b;
     }
+    public static int factorial(int a){
+        return (a == 1 || a == 0) ? 1 : a * factorial(a - 1);
+    }
 }
