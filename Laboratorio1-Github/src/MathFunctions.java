@@ -13,4 +13,7 @@ public class MathFunctions {
     public static int powNumber(int a, int exp) { 
         return a**exp; 
     }
+    public static int subNumber(int a, int b) {
+        return a - b;
+    }
 }
