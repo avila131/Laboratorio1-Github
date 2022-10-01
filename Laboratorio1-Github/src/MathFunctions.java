@@ -10,5 +10,7 @@ public class MathFunctions {
         return a + b;
     }
 
-    public static int powNumber(int a, int exp) { return a**exp; }
+    public static int powNumber(int a, int exp) { 
+        return a**exp; 
+    }
 }
